@@ -1,6 +1,6 @@
 ﻿namespace StrategyExampleB
 {
-    class Calculate
+    internal class Calculate
     {
         public ICalculator calculator { get; set; }
 

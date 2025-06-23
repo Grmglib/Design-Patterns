@@ -1,6 +1,6 @@
 ﻿namespace CommandExampleB
 {
-    class RotateCommand : IRobotCommand
+    internal class RotateCommand : IRobotCommand
     {
         private double _rotateLeft { get; set; }
         private readonly Robot _robot;

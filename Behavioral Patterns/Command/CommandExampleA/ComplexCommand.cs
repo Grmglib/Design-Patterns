@@ -2,7 +2,7 @@
 {
     // However, some commands can delegate more complex operations to other
     // objects, called "receivers."
-    class ComplexCommand : ICommand
+    internal class ComplexCommand : ICommand
     {
         private Receiver _receiver;
 

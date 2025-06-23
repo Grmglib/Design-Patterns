@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Calculate calculate = new Calculate();
             while (true)
@@ -43,7 +43,6 @@
                     }
                     catch (Exception ex)
                     {
-
                         Console.WriteLine("A error occurred : " + ex.InnerException);
                     }
                 }

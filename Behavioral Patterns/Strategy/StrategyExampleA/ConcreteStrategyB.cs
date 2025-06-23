@@ -1,6 +1,6 @@
 ﻿namespace StrategyExampleA
 {
-    class ConcreteStrategyB : IStrategy
+    internal class ConcreteStrategyB : IStrategy
     {
         public object DoAlgorithm(object data)
         {

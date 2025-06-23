@@ -1,6 +1,6 @@
 ﻿namespace StrategyExampleB
 {
-    class Sum : ICalculator
+    internal class Sum : ICalculator
     {
         public double Operation(double n1, double n2)
         {

@@ -1,7 +1,7 @@
 ﻿namespace Command
 {
     // Some commands can implement simple operations on their own.
-    class SimpleCommand : ICommand
+    internal class SimpleCommand : ICommand
     {
         private string _payload = string.Empty;
 

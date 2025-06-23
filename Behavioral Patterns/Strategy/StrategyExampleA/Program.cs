@@ -1,8 +1,8 @@
 ﻿namespace StrategyExampleA
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // The client code picks a concrete strategy and passes it to the
             // context. The client should be aware of the differences between

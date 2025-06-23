@@ -32,7 +32,6 @@
 
             Console.WriteLine("Invoker: ...doing something really important...");
 
-
             Console.WriteLine("Invoker: Does anybody want something done after I finish?");
             if (this._onFinish is ICommand)
             {

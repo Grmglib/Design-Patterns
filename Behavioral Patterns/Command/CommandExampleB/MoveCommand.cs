@@ -1,9 +1,10 @@
 ﻿namespace CommandExampleB
 {
-    class MoveCommand : IRobotCommand
+    internal class MoveCommand : IRobotCommand
     {
         private readonly Robot _robot;
         private int _forward { get; set; }
+
         public MoveCommand(int forward, Robot robo)
         {
             _forward = forward;

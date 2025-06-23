@@ -1,6 +1,6 @@
 ﻿namespace CommandExampleB
 {
-    class RobotController
+    internal class RobotController
     {
         public Queue<IRobotCommand> commands;
         private Stack<IRobotCommand> _undoStack;
@@ -15,7 +15,7 @@
         {
             Console.WriteLine("Executing commands");
 
-            while(commands.Count > 0)
+            while (commands.Count > 0)
             {
                 IRobotCommand comando = commands.Dequeue();
                 comando.Execute();
@@ -27,7 +27,7 @@
         {
             Console.WriteLine("Undoing {0} commands.", numUndoCommands);
 
-            while(numUndoCommands > 0 && _undoStack.Count > 0)
+            while (numUndoCommands > 0 && _undoStack.Count > 0)
             {
                 IRobotCommand command = _undoStack.Pop();
                 command.Undo();

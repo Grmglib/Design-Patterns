@@ -1,8 +1,8 @@
 ﻿namespace CommandExampleB
 {
-    class ExcavateCommand : IRobotCommand
+    internal class ExcavateCommand : IRobotCommand
     {
-        private bool _harvestMaterial {  get; set; }
+        private bool _harvestMaterial { get; set; }
         private readonly Robot _robot;
 
         public ExcavateCommand(bool harvestMaterial, Robot robo)
@@ -20,7 +20,5 @@
         {
             _robot.Excavate(!_harvestMaterial);
         }
-
-        
     }
 }

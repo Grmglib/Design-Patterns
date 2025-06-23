@@ -1,8 +1,8 @@
 ﻿using Command;
 
-class Program
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         // The client code can parameterize an invoker with any commands.
         Invoker invoker = new Invoker();

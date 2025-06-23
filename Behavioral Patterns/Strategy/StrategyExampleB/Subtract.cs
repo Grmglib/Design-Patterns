@@ -1,6 +1,6 @@
 ﻿namespace StrategyExampleB
 {
-    class Subtract : ICalculator
+    internal class Subtract : ICalculator
     {
         public double Operation(double n1, double n2)
         {
