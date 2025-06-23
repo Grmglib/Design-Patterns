@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{B9661EFF-5921-4FF5-B86B-221F8A5121B2}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{79CECFA9-B14A-431A-B8E5-88CDB377617B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Patterns", "Structural Patterns", "{469D8166-19B2-46DE-87C2-ABA9E9F148F4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Behavioral Patterns", "{94182DE3-9C35-4899-A666-9F975A667EB5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Behavioral Patterns", "{6D6D8E99-2A4F-4425-BBF3-2BC43493C406}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyExampleA", "Behavioral Patterns\Strategy\StrategyExampleA\StrategyExampleA.csproj", "{7614A431-8FE4-493C-91EA-678CF008B3B1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{49984FC1-1367-49FA-BA4D-B5EBB0F51CB0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyExampleB", "Behavioral Patterns\Strategy\StrategyExampleB\StrategyExampleB.csproj", "{2F4E92AF-FA81-42E9-A6BC-285F1748A5C5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{0D855F06-476F-4409-91A9-114E2ABA2CAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyExampleA", "Behavioral Patterns\Strategy\StrategyExampleA\StrategyExampleA.csproj", "{C0B5A899-26B3-469B-A37E-60A93F668EC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandExampleA", "Behavioral Patterns\Command\CommandExampleA\CommandExampleA.csproj", "{D9D03FFB-7C00-4DEB-98ED-E7D882721859}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyExampleB", "Behavioral Patterns\Strategy\StrategyExampleB\StrategyExampleB.csproj", "{FBCBD81F-FFDA-4FD0-9867-44B440A63211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandExampleB", "Behavioral Patterns\Command\CommandExampleB\CommandExampleB.csproj", "{8D9DC16E-0771-4956-88B5-78FE932EDF29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,22 +27,33 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7614A431-8FE4-493C-91EA-678CF008B3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7614A431-8FE4-493C-91EA-678CF008B3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7614A431-8FE4-493C-91EA-678CF008B3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7614A431-8FE4-493C-91EA-678CF008B3B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F4E92AF-FA81-42E9-A6BC-285F1748A5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F4E92AF-FA81-42E9-A6BC-285F1748A5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F4E92AF-FA81-42E9-A6BC-285F1748A5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F4E92AF-FA81-42E9-A6BC-285F1748A5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B5A899-26B3-469B-A37E-60A93F668EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B5A899-26B3-469B-A37E-60A93F668EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B5A899-26B3-469B-A37E-60A93F668EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B5A899-26B3-469B-A37E-60A93F668EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D03FFB-7C00-4DEB-98ED-E7D882721859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D03FFB-7C00-4DEB-98ED-E7D882721859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D03FFB-7C00-4DEB-98ED-E7D882721859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D03FFB-7C00-4DEB-98ED-E7D882721859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCBD81F-FFDA-4FD0-9867-44B440A63211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCBD81F-FFDA-4FD0-9867-44B440A63211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCBD81F-FFDA-4FD0-9867-44B440A63211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCBD81F-FFDA-4FD0-9867-44B440A63211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9DC16E-0771-4956-88B5-78FE932EDF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9DC16E-0771-4956-88B5-78FE932EDF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9DC16E-0771-4956-88B5-78FE932EDF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9DC16E-0771-4956-88B5-78FE932EDF29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B9661EFF-5921-4FF5-B86B-221F8A5121B2} = {94182DE3-9C35-4899-A666-9F975A667EB5}
-		{7614A431-8FE4-493C-91EA-678CF008B3B1} = {B9661EFF-5921-4FF5-B86B-221F8A5121B2}
-		{2F4E92AF-FA81-42E9-A6BC-285F1748A5C5} = {B9661EFF-5921-4FF5-B86B-221F8A5121B2}
+		{49984FC1-1367-49FA-BA4D-B5EBB0F51CB0} = {6D6D8E99-2A4F-4425-BBF3-2BC43493C406}
+		{0D855F06-476F-4409-91A9-114E2ABA2CAC} = {6D6D8E99-2A4F-4425-BBF3-2BC43493C406}
+		{C0B5A899-26B3-469B-A37E-60A93F668EC0} = {49984FC1-1367-49FA-BA4D-B5EBB0F51CB0}
+		{D9D03FFB-7C00-4DEB-98ED-E7D882721859} = {0D855F06-476F-4409-91A9-114E2ABA2CAC}
+		{FBCBD81F-FFDA-4FD0-9867-44B440A63211} = {49984FC1-1367-49FA-BA4D-B5EBB0F51CB0}
+		{8D9DC16E-0771-4956-88B5-78FE932EDF29} = {0D855F06-476F-4409-91A9-114E2ABA2CAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {557943DA-FC31-41FD-8BAB-458FB669AFA5}
